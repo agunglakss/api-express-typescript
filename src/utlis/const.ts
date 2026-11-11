@@ -1,0 +1,10 @@
+export const ErrNotFound = "Data Not Found.";
+export const ErrBadRequest = "Bad Request.";
+export const ErrUnprocessableEntity = "Unprocessable Entity";
+export const ErrInternalServerError = "Internal Server Error";
+export const ErrAuthorization = "Authorization is Forbidden"; // don't have permission 403
+export const ErrAuthentication = "Authentication Failed" // username or password wrong 401
+export const ErrExpiredToken = "Token is Expired";
+export const ErrInvalidToken = "Invalid Token";
+export const ErrEmailAlreadyExists = "Email Already Exists"
+export const ErrInvalidLogin = "Incorrect username or password"
